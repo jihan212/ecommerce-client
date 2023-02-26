@@ -1,5 +1,5 @@
 import React from 'react';
-import blog1 from '../../images/blog1.jpg';
+import blog1 from '../../../images/blog1.jpg';
 
 const BigSale = () => {
 	return (

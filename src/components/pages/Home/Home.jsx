@@ -1,10 +1,10 @@
 import React from 'react';
+import Header from '../../Header';
 import Banner from './Banner';
 import BigSale from './BigSale';
 import Collection from './Collection';
 import FeaturedProduct from './FeaturedProduct';
-import Header from '../Header';
-import Footer from '../Footer';
+import Footer from '../../Footer';
 
 const Home = () => {
 	return (

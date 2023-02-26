@@ -1,7 +1,7 @@
 import React from 'react';
-import tanktop from '../../images/tanktop.jpg';
-import poloshirt from '../../images/poloshirt.jpg';
-import tshirtmockup from '../../images/tshirtmockup.jpg';
+import tanktop from '../../../images/tanktop.jpg';
+import poloshirt from '../../../images/poloshirt.jpg';
+import tshirtmockup from '../../../images/tshirtmockup.jpg';
 
 const FeaturedProduct = () => {
 	return (

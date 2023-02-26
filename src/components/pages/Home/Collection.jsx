@@ -1,7 +1,7 @@
 import React from 'react';
-import women from '../../images/women.jpg';
-import children from '../../images/children.jpg';
-import men from '../../images/men.jpg';
+import women from '../../../images/women.jpg';
+import children from '../../../images/children.jpg';
+import men from '../../../images/men.jpg';
 
 const Collection = () => {
 	return (
