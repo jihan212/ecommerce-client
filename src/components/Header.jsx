@@ -4,16 +4,16 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 	return (
 		<header
-			class='site-navbar'
+			className='site-navbar'
 			role='banner'
 		>
 			<nav
-				class='site-navigation text-right text-md-center'
+				className='site-navigation text-right text-md-center'
 				role='navigation'
 			>
-				<div class='container'>
-					<ul class='site-menu js-clone-nav d-none d-md-block'>
-						<li class='active'>
+				<div className='container'>
+					<ul className='site-menu js-clone-nav d-none d-md-block'>
+						<li className='active'>
 							<Link to='/'>Home</Link>
 						</li>
 						<li>

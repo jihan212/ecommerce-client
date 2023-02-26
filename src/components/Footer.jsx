@@ -2,16 +2,18 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-		<footer class='site-footer border-top'>
-			<div class='container'>
-				<div class='row'>
-					<div class='col-lg-6 mb-5 mb-lg-0'>
-						<div class='row'>
-							<div class='col-md-12'>
-								<h3 class='footer-heading mb-4'>Navigations</h3>
+		<footer className='site-footer border-top'>
+			<div className='container'>
+				<div className='row'>
+					<div className='col-lg-6 mb-5 mb-lg-0'>
+						<div className='row'>
+							<div className='col-md-12'>
+								<h3 className='footer-heading mb-4'>
+									Navigations
+								</h3>
 							</div>
-							<div class='col-md-6 col-lg-4'>
-								<ul class='list-unstyled'>
+							<div className='col-md-6 col-lg-4'>
+								<ul className='list-unstyled'>
 									<li>
 										<a href='/'>Sell online</a>
 									</li>
@@ -26,8 +28,8 @@ const Footer = () => {
 									</li>
 								</ul>
 							</div>
-							<div class='col-md-6 col-lg-4'>
-								<ul class='list-unstyled'>
+							<div className='col-md-6 col-lg-4'>
+								<ul className='list-unstyled'>
 									<li>
 										<a href='/'>Mobile commerce</a>
 									</li>
@@ -39,8 +41,8 @@ const Footer = () => {
 									</li>
 								</ul>
 							</div>
-							<div class='col-md-6 col-lg-4'>
-								<ul class='list-unstyled'>
+							<div className='col-md-6 col-lg-4'>
+								<ul className='list-unstyled'>
 									<li>
 										<a href='/'>Point of sale</a>
 									</li>
@@ -54,51 +56,53 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					<div class='col-md-6 col-lg-3 mb-4 mb-lg-0'></div>
-					<div class='col-md-6 col-lg-3'>
-						<div class='block-5 mb-5'>
-							<h3 class='footer-heading mb-4'>Contact Info</h3>
-							<ul class='list-unstyled'>
-								<li class='address'>
+					<div className='col-md-6 col-lg-3 mb-4 mb-lg-0'></div>
+					<div className='col-md-6 col-lg-3'>
+						<div className='block-5 mb-5'>
+							<h3 className='footer-heading mb-4'>
+								Contact Info
+							</h3>
+							<ul className='list-unstyled'>
+								<li className='address'>
 									203 Fake St. Mountain View, San Francisco,
 									California, USA
 								</li>
-								<li class='phone'>
+								<li className='phone'>
 									<a href='tel://23923929210'>
 										+2 392 3929 210
 									</a>
 								</li>
-								<li class='email'>
+								<li className='email'>
 									<a
 										href='admin@email.com'
-										class='__cf_email__'
+										className='__cf_email__'
 									>
 										admin@email.com
 									</a>
 								</li>
 							</ul>
 						</div>
-						<div class='block-7'>
+						<div className='block-7'>
 							<form
 								action='#'
 								method='post'
 							>
 								<label
-									for='email_subscribe'
-									class='footer-heading'
+									htmlFor='email_subscribe'
+									className='footer-heading'
 								>
 									Subscribe
 								</label>
-								<div class='form-group'>
+								<div className='form-group'>
 									<input
 										type='text'
-										class='form-control py-4'
+										className='form-control py-4'
 										id='email_subscribe'
 										placeholder='Email'
 									/>
 									<input
 										type='submit'
-										class='btn btn-sm btn-primary'
+										className='btn btn-sm btn-primary'
 										value='Send'
 									/>
 								</div>
