@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
 	return (
@@ -6,7 +7,9 @@ const Banner = () => {
 			<div
 				className='site-blocks-cover'
 				style={{
-					backgroundImage: `url("https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg.webp")`,
+					backgroundImage: `url(${
+						process.env.PUBLIC_URL + '/assets/images/banner.jpg'
+					})`,
 				}}
 			>
 				<div className='container'>
@@ -20,12 +23,12 @@ const Banner = () => {
 									Integer accumsan tincidunt fringilla.
 								</p>
 								<p>
-									<a
-										href='/shop'
+									<Link
+										to='/shop'
 										className='btn btn-sm btn-primary'
 									>
 										Shop Now
-									</a>
+									</Link>
 								</p>
 							</div>
 						</div>

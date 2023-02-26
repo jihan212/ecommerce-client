@@ -1,11 +1,16 @@
 import React from 'react';
 import Header from '../../Header';
+import TopNav from '../../TopNav';
+import Footer from '../../Footer';
+import ContactForm from './ContactForm';
 
 const Contact = () => {
 	return (
 		<div className='site-wrap'>
 			<Header />
-			Contact
+			<TopNav />
+			<ContactForm />
+			<Footer />
 		</div>
 	);
 };

@@ -12,6 +12,7 @@ const FeaturedProduct = () => {
 						<h2>Featured Products</h2>
 					</div>
 				</div>
+
 				<div className='row'>
 					<div className='col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4 item'>
 						<div className='block-4 text-center'>

@@ -7,6 +7,7 @@ import Cart from '../components/pages/Cart/Cart';
 import Checkout from '../components/pages/Checkout/Checkout';
 import Contact from '../components/pages/Contact/Contact';
 import SingleProduct from '../components/pages/SingleProduct/SingleProduct';
+import ThankYou from '../components/pages/ThankYou/ThankYou';
 
 const Routing = () => {
 	return (
@@ -39,6 +40,10 @@ const Routing = () => {
 				<Route
 					path='/singleproduct'
 					element={<SingleProduct />}
+				></Route>
+				<Route
+					path='/thankyou'
+					element={<ThankYou />}
 				></Route>
 			</Routes>
 		</>

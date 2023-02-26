@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Header from '../../Header';
+import TopNav from '../../TopNav';
+import CartBody from './CartBody';
+import Footer from '../../Footer';
 
 const Cart = () => {
-  return (
-    <div>Cart</div>
-  )
-}
+	return (
+		<>
+			<Header />
+			<TopNav />
+			<CartBody />
+			<Footer />
+		</>
+	);
+};
 
-export default Cart
+export default Cart;
