@@ -6,7 +6,7 @@ import men from '../images/men.jpg';
 const Collection = () => {
 	return (
 		<>
-			<div className='container'>
+			<div className='container '>
 				<div className='row justify-content-center'>
 					<div className='col-md-7 site-section-heading text-center pt-4'>
 						<h2>Collection</h2>
@@ -18,7 +18,7 @@ const Collection = () => {
 						data-aos-delay=''
 					>
 						<a
-							className='block-2-item'
+							className='block-2-item text-decoration-none'
 							href='/women'
 						>
 							<figure className='image'>
@@ -41,7 +41,7 @@ const Collection = () => {
 						data-aos-delay='100'
 					>
 						<a
-							className='block-2-item'
+							className='block-2-item text-decoration-none'
 							href='/children'
 						>
 							<figure className='image'>
@@ -64,7 +64,7 @@ const Collection = () => {
 						data-aos-delay='200'
 					>
 						<a
-							className='block-2-item'
+							className='block-2-item text-decoration-none'
 							href='/men'
 						>
 							<figure className='image'>

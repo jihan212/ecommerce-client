@@ -19,7 +19,7 @@ const BigColumn = () => {
 								type='button'
 								className='btn btn-secondary btn-sm dropdown-toggle'
 								id='dropdownMenuOffset'
-								data-toggle='dropdown'
+								data-bs-toggle='dropdown'
 								aria-haspopup='true'
 								aria-expanded='false'
 							>
@@ -54,7 +54,7 @@ const BigColumn = () => {
 								type='button'
 								className='btn btn-secondary btn-sm dropdown-toggle'
 								id='dropdownMenuReference'
-								data-toggle='dropdown'
+								data-bs-toggle='dropdown'
 							>
 								Reference
 							</button>

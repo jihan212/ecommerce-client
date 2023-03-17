@@ -23,102 +23,12 @@ const SingleProductBody = () => {
 							veritatis nesciunt doloremque sint asperiores fuga
 							voluptas, distinctio, aperiam, ratione dolore.
 						</p>
-						<p className='mb-4'>
-							Ex numquam veritatis debitis minima quo error quam
-							eos dolorum quidem perferendis. Quos repellat
-							dignissimos minus, eveniet nam voluptatibus
-							molestias omnis reiciendis perspiciatis illum hic
-							magni iste, velit aperiam quis.
-						</p>
 						<p>
-							<strong className='text-primary h4'>$50.00</strong>
+							<strong className='text-primary h4 mt-1'>
+								$50.00
+							</strong>
 						</p>
-						<div className='mb-1 d-flex'>
-							<label
-								for='option-sm'
-								className='d-flex mr-3 mb-3'
-							>
-								<span
-									className='d-inline-block mr-2'
-									style={{
-										top: '-2px',
-										position: 'relative',
-									}}
-								>
-									<input
-										type='radio'
-										id='option-sm'
-										name='shop-sizes'
-									/>
-								</span>
-								<span className='d-inline-block text-black'>
-									Small
-								</span>
-							</label>
-							<label
-								for='option-md'
-								className='d-flex mr-3 mb-3'
-							>
-								<span
-									className='d-inline-block mr-2'
-									style={{
-										top: '-2px',
-										position: 'relative',
-									}}
-								>
-									<input
-										type='radio'
-										id='option-md'
-										name='shop-sizes'
-									/>
-								</span>
-								<span className='d-inline-block text-black'>
-									Medium
-								</span>
-							</label>
-							<label
-								for='option-lg'
-								className='d-flex mr-3 mb-3'
-							>
-								<span
-									className='d-inline-block mr-2'
-									style={{
-										top: '-2px',
-										position: 'relative',
-									}}
-								>
-									<input
-										type='radio'
-										id='option-lg'
-										name='shop-sizes'
-									/>
-								</span>
-								<span className='d-inline-block text-black'>
-									Large
-								</span>
-							</label>
-							<label
-								for='option-xl'
-								className='d-flex mr-3 mb-3'
-							>
-								<span
-									className='d-inline-block mr-2'
-									style={{
-										top: '-2px',
-										position: 'relative',
-									}}
-								>
-									<input
-										type='radio'
-										id='option-xl'
-										name='shop-sizes'
-									/>
-								</span>
-								<span className='d-inline-block text-black'>
-									Extra Large
-								</span>
-							</label>
-						</div>
+
 						<div className='mb-5'>
 							<div
 								className='input-group mb-3'

@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../../Header';
 import TopNav from '../../TopNav';
-import Layouts from './Layout/Layouts';
+import BigColumn from './Layout/BigColumn';
+import SmallColumn from './Layout/SmallColumn';
 import Collection from '../../Collection';
 import Footer from '../../Footer';
 
@@ -12,7 +13,10 @@ const Shop = () => {
 			<TopNav />
 			<div className='site-section'>
 				<div className='container'>
-					<Layouts />
+					<div className='row mb-5'>
+						<BigColumn />
+						<SmallColumn />
+					</div>
 					<Collection />
 				</div>
 			</div>
