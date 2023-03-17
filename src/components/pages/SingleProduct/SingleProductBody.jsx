@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import tanktop from '../../../images/tanktop.jpg';
 
 const SingleProductBody = () => {
+	const [counter, setCounter] = useState(0);
+
+	const increase = () => {
+		setCounter((count) => count + 1);
+	};
+
+	//decrease counter
+	const decrease = () => {
+		if (counter > 0) {
+			setCounter((count) => count - 1);
+		} 
+	};
 	return (
 		<div className='site-section'>
 			<div className='container'>
@@ -38,6 +50,7 @@ const SingleProductBody = () => {
 									<button
 										className='btn btn-outline-primary js-btn-minus'
 										type='button'
+										onClick={decrease}
 									>
 										&#45;
 									</button>
@@ -45,7 +58,7 @@ const SingleProductBody = () => {
 								<input
 									type='text'
 									className='form-control text-center'
-									value='1'
+									value={counter}
 									placeholder=''
 									aria-label='Example text with button addon'
 									aria-describedby='button-addon1'
@@ -54,6 +67,7 @@ const SingleProductBody = () => {
 									<button
 										className='btn btn-outline-primary js-btn-plus'
 										type='button'
+										onClick={increase}
 									>
 										&#43;
 									</button>

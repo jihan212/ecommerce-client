@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import blog1 from '../../../images/blog1.jpg';
 
 const BigSale = () => {
@@ -31,12 +32,12 @@ const BigSale = () => {
 								fugiat. Ex, veniam?
 							</p>
 							<p>
-								<a
-									href='/'
+								<Link
+									to='/shop'
 									className='btn btn-primary btn-sm'
 								>
 									Shop Now
-								</a>
+								</Link>
 							</p>
 						</div>
 					</div>

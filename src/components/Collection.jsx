@@ -18,7 +18,7 @@ const Collection = () => {
 						data-aos-delay=''
 					>
 						<a
-							className='block-2-item text-decoration-none'
+							className='block-2-item text-decoration-none text-black'
 							href='/women'
 						>
 							<figure className='image'>
@@ -41,7 +41,7 @@ const Collection = () => {
 						data-aos-delay='100'
 					>
 						<a
-							className='block-2-item text-decoration-none'
+							className='block-2-item text-decoration-none text-black'
 							href='/children'
 						>
 							<figure className='image'>
@@ -64,7 +64,7 @@ const Collection = () => {
 						data-aos-delay='200'
 					>
 						<a
-							className='block-2-item text-decoration-none'
+							className='block-2-item text-decoration-none text-black'
 							href='/men'
 						>
 							<figure className='image'>

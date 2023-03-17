@@ -80,7 +80,7 @@ const CartBody = () => {
 										<td>
 											<a
 												href='/'
-												className='btn btn-danger btn-sm'
+												className='btn btn-outline-danger btn-sm'
 											>
 												X
 											</a>
@@ -135,7 +135,7 @@ const CartBody = () => {
 										<td>
 											<a
 												href='/'
-												className='btn btn-danger btn-sm'
+												className='btn btn-outline-danger btn-sm'
 											>
 												X
 											</a>
@@ -196,7 +196,7 @@ const CartBody = () => {
 									<div className='col-md-12'>
 										<Link to='/checkout'>
 											<button
-												className='btn btn-success btn-lg py-3 btn-block'
+												className='btn btn-outline-success btn-lg py-3 btn-block'
 												onclick="window.location='checkout.html'"
 											>
 												Proceed To Checkout

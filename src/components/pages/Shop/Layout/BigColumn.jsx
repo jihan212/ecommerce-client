@@ -23,76 +23,30 @@ const BigColumn = () => {
 								aria-haspopup='true'
 								aria-expanded='false'
 							>
-								Latest
+								Category
 							</button>
 							<div
 								className='dropdown-menu'
 								aria-labelledby='dropdownMenuOffset'
 							>
-								<a
+								<Link
 									className='dropdown-item'
-									href='/'
+									to='/men'
 								>
 									Men
-								</a>
-								<a
+								</Link>
+								<Link
 									className='dropdown-item'
-									href='/'
+									to='/'
 								>
 									Women
-								</a>
-								<a
+								</Link>
+								<Link
 									className='dropdown-item'
-									href='/'
+									to='/'
 								>
 									Children
-								</a>
-							</div>
-						</div>
-						<div className='btn-group'>
-							<button
-								type='button'
-								className='btn btn-secondary btn-sm dropdown-toggle'
-								id='dropdownMenuReference'
-								data-bs-toggle='dropdown'
-							>
-								Reference
-							</button>
-							<div
-								className='dropdown-menu'
-								aria-labelledby='dropdownMenuReference'
-							>
-								<a
-									className='dropdown-item'
-									href='/'
-								>
-									Relevance
-								</a>
-								<a
-									className='dropdown-item'
-									href='/'
-								>
-									Name, A to Z
-								</a>
-								<a
-									className='dropdown-item'
-									href='/'
-								>
-									Name, Z to A
-								</a>
-								<div className='dropdown-divider'></div>
-								<a
-									className='dropdown-item'
-									href='/'
-								>
-									Price, low to high
-								</a>
-								<a
-									className='dropdown-item'
-									href='/'
-								>
-									Price, high to low
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -337,35 +291,6 @@ const BigColumn = () => {
 							<p className='mb-0'>Finding perfect products</p>
 							<p className='text-primary font-weight-bold'>$50</p>
 						</div>
-					</div>
-				</div>
-			</div>
-			<div className='row'>
-				<div className='col-md-12 text-center'>
-					<div className='site-block-27'>
-						<ul>
-							<li>
-								<Link to='/'>&lt;</Link>
-							</li>
-							<li className='active'>
-								<span>1</span>
-							</li>
-							<li>
-								<a href='/'>2</a>
-							</li>
-							<li>
-								<a href='/'>3</a>
-							</li>
-							<li>
-								<a href='/'>4</a>
-							</li>
-							<li>
-								<a href='/'>5</a>
-							</li>
-							<li>
-								<a href='/'>&gt;</a>
-							</li>
-						</ul>
 					</div>
 				</div>
 			</div>

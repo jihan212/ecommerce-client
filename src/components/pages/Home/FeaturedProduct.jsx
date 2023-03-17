@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import tanktop from '../../../images/tanktop.jpg';
 import poloshirt from '../../../images/poloshirt.jpg';
 import tshirtmockup from '../../../images/tshirtmockup.jpg';
@@ -23,9 +24,14 @@ const FeaturedProduct = () => {
 									className='img-fluid'
 								/>
 							</figure>
-							<div className='block-4-text p-4'>
+							<div className='block-4-text p-4 '>
 								<h3>
-									<a href='/tankop'>Tank Top</a>
+									<Link
+										to='/singleProduct'
+										className='text-black'
+									>
+										Tank Top
+									</Link>
 								</h3>
 								<p className='mb-0'>Finding perfect t-shirt</p>
 								<p className='text-primary font-weight-bold'>
@@ -46,7 +52,12 @@ const FeaturedProduct = () => {
 							</figure>
 							<div className='block-4-text p-4'>
 								<h3>
-									<a href='/poloshirt'>Polo Shirt</a>
+									<Link
+										to='/singleProduct'
+										className='text-black'
+									>
+										Polo Shirt
+									</Link>
 								</h3>
 								<p className='mb-0'>Finding perfect products</p>
 								<p className='text-primary font-weight-bold'>
@@ -66,7 +77,12 @@ const FeaturedProduct = () => {
 							</figure>
 							<div className='block-4-text p-4'>
 								<h3>
-									<a href='/tshirtmockup'>T-Shirt Mockup</a>
+									<Link
+										to='/singleProduct'
+										className='text-black'
+									>
+										T-Shirt Mockup
+									</Link>
 								</h3>
 								<p className='mb-0'>Finding perfect products</p>
 								<p className='text-primary font-weight-bold'>
